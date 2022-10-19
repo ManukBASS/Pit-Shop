@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/favicon.ico">
+    <script src="https://kit.fontawesome.com/a2d47808b7.js" crossorigin="anonymous"></script>
+
+    <title>Pit-Shop</title>
+</head>
+
+<body>
+    <header id="headerNav">
+        <a onclick="changeShop()" class="logo">
+            <img src="/img/logo.png" alt="Logo Pit-Shop" class="logo-img">
+            <h2 class="logo-nombre">Pit-Shop</h2>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#ourP" class="nav-link">Shop</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#shop" class="carrito">
+            <div>
+                <span class="number-carrito">0</span>
+            </div>
+            <i class="fa-solid fa-cart-shopping fa-xl"></i>
+        </a>
+        <div class="burger">
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+    </header>
+    <section>
+        <div class="carrusel carrusel-mobile">
+
+        </div>
+    </section>
+    <section class="products">
+        <h2 id="ourP">Our Products</h2>
+        <div class="separator">
+            <span></span>
+        </div>
+        <div class="product-card-container">
+            <div class="product-card">
+                <img src="/img/ferrari-shirt.png" alt="ferrari-shirt" class="item-img">
+                <h1 class="item-name">Ferrari Shirt</h1>
+                <p class="price">$65.00</p>
+                <button class="addCart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/img/alpine-shirt.webp" alt="alpine-shirt">
+                <h1>Alpine Shirt</h1>
+                <p class="price">$65.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/img/mclaren-cap.jpg" alt="mclaren-cap">
+                <h1>McLaren Cap</h1>
+                <p class="price">$25.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <!-- <div>
+            <ul class="carrousel">
+                <li class="bullet"></li>
+                <li class="bullet"></li>
+                <li class="bullet"></li>
+            </ul>
+        </div> -->
+
+        <h2>Offers</h2>
+        <div class="separator">
+            <span></span>
+        </div>
+    </section>
+
+    <section class="product-discount-container">
+        
+
+        <div class="product-card-container">
+            <div class="product-card">
+                <div class="discount">
+                    <p>15% Off</p>
+                </div>
+                <img src="/img/haas-rainJacket.jpg" alt="Haas Rainjacket" class="item-img">
+                <h1 class="item-name">Haas Rainjacket</h1>
+                <p class="price">$50.00</p>
+                <button class="addCart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card-container">
+            <div class="product-card">
+                <div class="discount">
+                    <p>50% Off</p>
+                </div>
+                <img src="/img/mercedes-shirt.png" alt="Mercedes Shirt" class="item-img">
+                <h1 class="item-name">Mercedes Shirt</h1>
+                <p class="price">$30.00</p>
+                <button class="addCart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="shopping" id="shop">
+        <h2>Your Shopping List</h2>
+        <div class="separator">
+            <span></span>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="shopping-cart-header">
+                    <h4>Product</h4>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="shopping-cart-header">
+                    <h4 class="text-truncate text-price">Price</h4>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="shopping-cart-header">
+                    <h4>Quantity</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="shopping-cart-items shoppingCartItemsContainer">
+
+        </div>
+        <div class="">
+            <div class="col-12">
+                <div class="shopping-cart-total d-flex align-items-center">
+                    <p class="mb-0">Total</p>
+                    <p class="ml-4 mb-0 shoppingCartTotal">$0</p>
+                    <button class="btn btn-success ml-auto comprarButton buyButton" type="button">Buy</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="information">
+        <div class="info">
+            <img src="/img/credit-card.png" alt="Payment" class="info-icon">
+            <h2>Choose how to pay</h2>
+            <p>You can pay using credit card, debit card or cash</p>
+            <p class="learn">Learn about pay methods</p>
+        </div>
+        <div class="info">
+            <img src="/img/delivery.png" alt="Delivery" class="info-icon">
+            <h2>Delivery on time</h2>
+            <p>Commitment to fast delivery of purchased products</p>
+            <p class="learn">Learn about delivery cost</p>
+        </div>
+        <div class="info">
+            <img src="/img/security.png" alt="Security" class="info-icon-security">
+            <h2>End-to-End Security</h2>
+            <p>If you're not satisfied with yout product, return it !</p>
+            <p class="learn">Learn about refunds</p>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#" class="logo">
+            <img src="/img/logo.png" alt="Logo Pit-Shop" class="logo-img">
+            <h2 class="logo-nombre">Pit-Shop</h2>
+        </a>
+        <p>Copyright© 2022
+            <a href="https://github.com/ManukBASS"><span>ManuZ</span></a>
+        </p>
+    </footer>
+
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
