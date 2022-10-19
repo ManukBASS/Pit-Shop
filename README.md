@@ -11,4 +11,4 @@ También hay dos imágenes en la carpeta `/ design`, las cuales fueron diseñada
 
 -Diseño responsive \
 -Seccion con formulario de consultas \
--Agregar y quitar items en el carrito \
+-Agregar y quitar items en el carrito 
